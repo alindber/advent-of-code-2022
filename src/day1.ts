@@ -1,5 +1,4 @@
 interface Elf {
-  index: number;
   calories: number;
 }
 
@@ -15,11 +14,23 @@ const part1 = () => {
     }, 0);
     return calories > max ? calories : max;
   }, 0);
-  console.log(mostCalories);
+  console.log(`Part 1 - Most Calories: ${mostCalories} calories`);
 };
 
 const part2 = () => {
-  console.log("part2");
+  const elves: Elf[] = input.split("\n\n").map((elf) => {
+    const calories = elf.split("\n").reduce((total, item) => {
+      return total + Number(item);
+    }, 0);
+    return { calories };
+  });
+  elves.sort((a, b) => b.calories - a.calories);
+  const top3 = elves.slice(0, 3);
+  // console.log(top3);
+  const total = top3.reduce((total, elf) => {
+    return total + elf.calories;
+  }, 0);
+  console.log(`Part 2 - Top 3: ${total} total calories`);
 };
 
 const input = `15560
