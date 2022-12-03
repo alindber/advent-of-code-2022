@@ -3,8 +3,10 @@ interface Elf {
 }
 
 export const day1 = () => {
+  console.log("****** Day 1 ******************");
   part1();
   part2();
+  console.log("*******************************");
 };
 
 const part1 = () => {
