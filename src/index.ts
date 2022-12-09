@@ -6,6 +6,7 @@ import { day5 } from "./day5";
 import { day6 } from "./day6";
 import { day7 } from "./day7";
 import { day8 } from "./day8";
+import { day9 } from "./day9";
 
 day1();
 console.log();
@@ -22,3 +23,5 @@ console.log();
 day7();
 console.log();
 day8();
+console.log();
+day9();

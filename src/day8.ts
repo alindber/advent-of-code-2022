@@ -1,5 +1,5 @@
 export const day8 = () => {
-  console.log("****** Day 7 ******************");
+  console.log("****** Day 8 ******************");
 
   const trees = input.split("\n").map((line) => line.split("").map(Number));
 
