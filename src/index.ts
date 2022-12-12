@@ -8,6 +8,8 @@ import { day7 } from "./day7";
 import { day8 } from "./day8";
 import { day9 } from "./day9";
 import { day10 } from "./day10";
+import { day11 } from "./day11";
+import { day12 } from "./day12";
 
 day1();
 console.log();
@@ -28,3 +30,7 @@ console.log();
 day9();
 console.log();
 day10();
+console.log();
+day11();
+console.log();
+day12();
