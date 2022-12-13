@@ -10,6 +10,7 @@ import { day9 } from "./day9";
 import { day10 } from "./day10";
 import { day11 } from "./day11";
 import { day12 } from "./day12";
+import { day13 } from "./day13";
 
 day1();
 console.log();
@@ -34,3 +35,5 @@ console.log();
 day11();
 console.log();
 day12();
+console.log();
+day13();
