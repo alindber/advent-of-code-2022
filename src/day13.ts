@@ -1,7 +1,7 @@
 import { isEqual } from "lodash";
 
 export const day13 = () => {
-  console.log("Day 13: Shuttle Search");
+  console.log("****** Day 13 *****************");
   const indexes = [];
   const packets = [];
   const pairs = input.split("\n\n").map((x) => x.split("\n"));
@@ -32,6 +32,7 @@ export const day13 = () => {
     }
   }
   console.log("Part 2 - Decoder Key:", p1 * p2);
+  console.log("*******************************");
 };
 
 function isInRightOrder(left: any, right: any): boolean {
